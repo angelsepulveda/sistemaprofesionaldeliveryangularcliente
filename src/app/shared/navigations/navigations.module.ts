@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SidebarModule } from "./sidebar/sidebar.module";
+import { HeaderModule } from "./header/header.module";
 
 
 
@@ -8,10 +9,12 @@ import { SidebarModule } from "./sidebar/sidebar.module";
   declarations: [],
   imports: [
     CommonModule,
-    SidebarModule
+    SidebarModule,
+    HeaderModule
   ],
   exports: [
-    SidebarModule
+    SidebarModule,
+    HeaderModule
   ]
 })
 export class NavigationsModule { }

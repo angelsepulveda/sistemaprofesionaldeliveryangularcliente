@@ -1,0 +1,37 @@
+<div class="header" [ngClass]="getHeaderClass()">
+  <div class="header-content">
+   <div class="header-content-left">
+     <div class="search-container">
+       <div class="normal-search">
+         <input type="search" class="search" name="" id="" placeholder="Buscar...">
+         <i class="far fa-search search-icon"></i>
+       </div>
+     </div>
+   </div>
+    <div class="header-content-right">
+      <div class="header-menu">
+        <div class="header-menu-item">
+          <button class="header-menu-item-btn ripple">
+            <img [src]="'assets/flags/spain.jpg'" class="flag" alt="flag">
+          </button>
+        </div>
+        <div class="header-menu-item">
+          <button class="header-menu-item-btn ripple">
+            <i class="far fa-bell menu-icon"></i>
+          </button>
+        </div>
+        <div class="header-menu-item">
+          <button class="header-menu-item-btn ripple">
+            <i class="far fa-comment-alt menu-icon"></i>
+          </button>
+        </div>
+      </div>
+      <div class="header-user-avatar-container">
+        <div class="header-user-avatar">
+          <img src="../../../../assets/user3.jpg" alt="" class="user-avatar">
+          <div class="circle-indicator pulse"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
